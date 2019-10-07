@@ -3,9 +3,6 @@
 
 def key_for_min_value(name_hash)
   name_hash.reduce(nil) do |memo, (key, value)|
-    p key
-    p value
-    p memo
     if memo === nil
       memo = key
     else
